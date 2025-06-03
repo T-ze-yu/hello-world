@@ -13,8 +13,8 @@
         <mxCell id="rF9rNR6BdO1XXaO5pgB1-1" value="vibraniumdome-app&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="162" y="103" width="455" height="94" as="geometry" />
         </mxCell>
-        <mxCell id="rF9rNR6BdO1XXaO5pgB1-2" value="vibraniumdome-shields&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="666" y="197" width="136" height="72" as="geometry" />
+        <mxCell id="rF9rNR6BdO1XXaO5pgB1-2" value="&lt;div style=&quot;line-height: 150%;&quot;&gt;vibraniumdome-shields&lt;div&gt;启动 http server&amp;nbsp;&amp;nbsp;&lt;div&gt;端口：5001&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="666" y="211" width="136" height="68" as="geometry" />
         </mxCell>
         <mxCell id="rF9rNR6BdO1XXaO5pgB1-44" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;dashed=1;shape=link;" edge="1" parent="1" source="rF9rNR6BdO1XXaO5pgB1-3" target="rF9rNR6BdO1XXaO5pgB1-2">
           <mxGeometry relative="1" as="geometry" />
@@ -24,9 +24,6 @@
         </mxCell>
         <mxCell id="rF9rNR6BdO1XXaO5pgB1-4" value="name：vibraniumdome-app&amp;nbsp;&amp;nbsp;&lt;div&gt;image：node前端镜像&lt;/div&gt;&lt;div&gt;端口映射：&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;3000:3000&lt;/span&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;" vertex="1" parent="1">
           <mxGeometry x="199.5" y="127" width="180" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="rF9rNR6BdO1XXaO5pgB1-5" value="启动 http server&amp;nbsp;&amp;nbsp;&lt;div&gt;端口：5001&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="684.5" y="217.25" width="99" height="47" as="geometry" />
         </mxCell>
         <mxCell id="rF9rNR6BdO1XXaO5pgB1-6" value="name：vibraniumdome-opensearch-node-1&lt;div&gt;image：opensearchproject/opensearch:2.9.0&amp;nbsp;&lt;div&gt;&lt;div&gt;&amp;nbsp;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;端口映射：&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;9200:9200&amp;nbsp;&amp;nbsp;&lt;/span&gt;&lt;span style=&quot;background-color: transparent; color: light-dark(rgb(0, 0, 0), rgb(255, 255, 255));&quot;&gt;9600:9600&lt;/span&gt;&lt;/div&gt;&lt;/div&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="175" y="324" width="260" height="60" as="geometry" />
