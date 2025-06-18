@@ -7,7 +7,7 @@
         <mxCell id="F5prIMulx1yFy2f531_--4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="F5prIMulx1yFy2f531_--1" target="F5prIMulx1yFy2f531_--3">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F5prIMulx1yFy2f531_--5" value="手工设计映射规则" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F5prIMulx1yFy2f531_--4">
+        <mxCell id="F5prIMulx1yFy2f531_--5" value="手工设计特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F5prIMulx1yFy2f531_--4">
           <mxGeometry x="-0.3716" relative="1" as="geometry">
             <mxPoint x="-10" y="-38" as="offset" />
           </mxGeometry>
@@ -43,7 +43,7 @@
             </Array>
           </mxGeometry>
         </mxCell>
-        <mxCell id="F5prIMulx1yFy2f531_--19" value="蒙版叠加" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F5prIMulx1yFy2f531_--18">
+        <mxCell id="F5prIMulx1yFy2f531_--19" value="图像特征添加" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F5prIMulx1yFy2f531_--18">
           <mxGeometry x="0.3886" y="1" relative="1" as="geometry">
             <mxPoint x="33" y="1" as="offset" />
           </mxGeometry>
@@ -65,13 +65,13 @@
         <mxCell id="F5prIMulx1yFy2f531_--20" value="特征向量库&lt;div&gt;&lt;br&gt;&lt;div&gt;（将所有范围内的水印模式以特征向量的方式保存，并保存与之映射的水印信息）&lt;/div&gt;&lt;/div&gt;" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;fillColor=#f5f5f5;strokeColor=#666666;fontColor=#333333;" vertex="1" parent="1">
           <mxGeometry x="337" y="1304.5" width="157" height="127" as="geometry" />
         </mxCell>
-        <mxCell id="F5prIMulx1yFy2f531_--22" value="深度神经网络（水印提取器）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="F5prIMulx1yFy2f531_--22" value="深度神经网络（特征提取器）&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="494" y="890" width="339" height="305" as="geometry" />
         </mxCell>
         <mxCell id="F5prIMulx1yFy2f531_--33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="F5prIMulx1yFy2f531_--21" target="F5prIMulx1yFy2f531_--30">
           <mxGeometry relative="1" as="geometry" />
         </mxCell>
-        <mxCell id="F5prIMulx1yFy2f531_--34" value="输出水印模式" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F5prIMulx1yFy2f531_--33">
+        <mxCell id="F5prIMulx1yFy2f531_--34" value="输出特征" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="F5prIMulx1yFy2f531_--33">
           <mxGeometry x="-0.1159" y="-1" relative="1" as="geometry">
             <mxPoint as="offset" />
           </mxGeometry>
